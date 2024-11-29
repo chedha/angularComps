@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { SharedModule } from '../shared/shared.module';
 
 import { ElementsRoutingModule } from './elements-routing.module';
 
@@ -8,7 +9,8 @@ import { ElementsRoutingModule } from './elements-routing.module';
   declarations: [],
   imports: [
     CommonModule,
-    ElementsRoutingModule
+    ElementsRoutingModule,
+    SharedModule
   ]
 })
 export class ElementsModule { }
